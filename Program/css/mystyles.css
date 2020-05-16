@@ -1,0 +1,383 @@
+body
+{
+	background-image:linear-gradient(#424949, gray, lightgray);
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+main
+{
+	margin-top:100px;
+	padding:30px;
+}
+
+input[type=text], input[type=password], textarea, select
+{
+	border:2px solid #424949;
+	border-radius:10px;
+	padding:10px;
+	font-size:12pt;
+	
+}
+
+select
+{
+	font-size:10pt;
+}
+
+input[type=submit], button
+{
+	font-size:15pt;
+	background-image:linear-gradient(lightgray, gray, #424949);
+	border:2px solid #424949;
+	border-radius:10px;
+	padding:10px;
+	font-size:12pt;
+	transition:0.3s;
+}
+
+label
+{
+	color:white;
+}
+
+
+
+button:hover
+{
+	background-color:gray;	
+}
+
+a:hover
+{
+	color:grey;
+}
+
+a:link
+{
+	color:black;
+}
+
+a:visited
+{
+	color:black;
+}
+
+footer
+{
+	position:fixed;
+	text-align:right;
+	width:100%;
+	background-color:gray;
+	left:0;
+	bottom:0;
+	color:white;
+}
+
+header
+{
+	
+}
+
+nav
+{
+	display:block;
+	position:fixed;
+	width:100%;
+	background-color:lightgray;
+	left:0;
+	top:0;
+	height:50px;
+}
+
+.cmnarea, .cmntext
+{
+	margin:5px;
+}
+
+.cmnarea
+{
+	height:100px;
+}
+
+.newsbuttons
+{	
+	float:right;
+	margin:5px;
+}
+
+.newnewstitle, .newnewstext
+{
+	width:50%;
+	margin:5px;
+	float:left;
+}
+
+.newnewsbutton
+{
+	margin:5px;
+	float:left;
+}
+
+.roomdeletebutton
+{
+	display:block;
+	margin:0 auto;
+	width:100%;
+}
+
+.navpgbtns
+{
+	float:left;
+}
+
+.pageselectdiv
+{
+	display:block;
+	margin: 0 auto;
+}
+
+tr.borderbottom th, td
+{
+	border-bottom:1px solid black;
+	text-align:left;
+}
+
+.datatable
+{
+	width:100%;
+	padding:5px;
+}
+
+.divlist
+{
+	border:2px solid white;
+	background-color:lightgray;
+	color:black;
+	margin:20px;
+	float:left;
+	width:95%;
+}
+
+.deviceroomname
+{
+	font-size:large;
+	text-align:center;
+}
+
+.devicename
+{
+	font-size:small;
+	text-align:center;
+}
+
+.devicedesc
+{
+	font-size:small;
+	font-weight:normal;
+	overflow:auto;
+}
+
+.deviceroomdiv
+{
+	border:2px solid black;
+	background-color:lightgray;
+	color:black;
+	overflow:hidden;
+	margin:0 auto;
+	float:center;
+}
+
+.devicesdiv
+{
+	border:2px solid black;
+	background-color:lightgray;
+	color:black;
+	margin:20px;
+	float:left;
+	width:200px;
+	height:250px;
+	min-height:200px;
+}
+
+.devicesform
+{
+	margin: 0;
+}
+
+.devicesbuttons
+{
+	margin:5px;
+	padding:2px;
+	font-size:10pt;
+}
+
+.roomsname
+{
+	font-size:larger;
+}
+
+.roomsname, .roomsdesc
+{
+	margin:10px;
+}
+
+.roomsdivcontent
+{
+	float:left;
+	background-color:lightgray;
+	width:80%;
+	height:100%;
+}
+
+.roomsdivset
+{
+	float:right;
+	background-color:darkgray;
+	width:20%;
+	height:100%;
+	padding-top:10px;
+}
+
+.roomsdiv
+{
+	border:2px solid ghostwhite;
+	background-color:lightgray;
+	color:black;
+	overflow:hidden;
+	margin:20px;
+	float:left;
+	width:40%;
+	height:200px;
+}
+
+.smlbutton
+{
+	border:1px solid black;
+	border-radius:0px;
+	background-color:darkgray;
+	background-image:none;
+}
+
+.tcktbuttons
+{
+	border:1px solid black;
+	border-radius:0px;
+	background-color:darkgray;
+	background-image:none;
+	padding:2px;
+}
+
+.newsh1
+{
+	font-size:x-large;
+}
+
+.newsp
+{
+	
+}
+
+.newsdate
+{
+	margin:0 auto;
+	text-align:right;
+	margin-right:10px;
+	margin-top:5px;
+	font-size:smaller;
+}
+
+.indexnewscontentdiv
+{
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.statsdiv
+{
+	width:600px;
+	margin:0 auto;
+	text-align:justify;
+}
+
+.indexnewsdiv, .statsdiv, .infodiv
+{
+	border:2px solid ghostwhite;
+	border-radius:10px;
+	background-color:lightgray;
+	color:black;
+	overflow:hidden;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.menubutton
+{
+	border:0px;
+	border-radius:0px;
+	background-color:darkgray;
+	background-image:none;
+	position:relative;
+	height:100%;
+}
+
+.menuform
+{
+	display:block;
+	margin:0 auto;
+	float:right;
+}
+
+.fhmenuform
+{
+	display:block;
+	margin:2px;
+	float:right;
+	
+}
+
+.submenunav
+{
+	background-color:#C8C8C8;
+	top:50px;
+	height:30px;
+}
+
+.textfh, .textpass, .buttonlogin
+{
+	margin:5px;
+}
+
+.divlogin
+{
+	width:700px;
+	height:200px;
+	display:block;
+	margin:0 auto;
+	margin-top:10%;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:#424949;
+	background-color:white;
+	border:5px solid #424949;
+	border-radius:50px;
+}
+
+.formlogin
+{
+	text-align:center;
+	position:relative;
+}
+
+.foot
+{
+	margin:0 auto;
+	padding-right:10px;
+}
+
+.labeluzenet
+{
+	display:block;
+	margin:10px;
+	color:black;
+}
